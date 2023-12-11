@@ -1,0 +1,179 @@
+/* VERDE SB: #00754a */
+
+body {
+font-family: sans-serif;
+margin-left: 40px;
+margin-top: 60px;
+}
+
+/* ESTILOS GLOBALES */
+/* Sacar las viñetas de las listas */
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* HEADER */
+/* 
+header {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+*/
+/* Color del texto del menú */
+header ul a{
+    color: black ;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 8px;
+
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.idregis {
+    color: white;
+    background-color: black;
+    padding: 2%;
+    border-radius: 20px; 
+}
+
+/*HOME
+#Portada
+{
+    text-align: center;
+    padding-top: 20%;
+}
+*/
+
+/*HOME*/
+#Portada_menu
+{
+    text-align:left;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 50px;
+    border-style:groove;
+    border-radius: 20px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+#Portada_menu img {
+    border-radius: 20px; 
+    padding: 50px;
+}
+#Portada_menu .btn {
+    text-align:center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#Portada_giftcard
+{
+    text-align:left;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 50px;
+    border-style:groove;
+    border-radius: 20px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 80vh;
+}
+
+#Portada_giftcard img {
+    border-radius: 20px; 
+    padding: 50px;
+}
+#Portada_giftcard .btn {
+    text-align:center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.btn{
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    padding: 8px 4px;
+    border-radius: 20px; 
+}
+
+/*DETALLE GIFTCARD*/
+
+/*REGISTRARSE*/
+.Registrarse {
+    display: flex;
+    font-size: 1.5rem;
+    background-color: lightgrey;
+    color: white;
+    padding: 8px 4px;
+    border-radius: 20px; 
+  
+}
+.Registrarse2 {
+
+    margin: 30px;
+    flex-wrap: wrap;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+
+  
+}
+/*MENU*/
+.MenuProductos {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 30%;
+    max-width: 400px;
+    margin: 30px;
+    flex-wrap: wrap;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.redes {
+    display: flex;
+
+}
+
+/*
+footer nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+*/
